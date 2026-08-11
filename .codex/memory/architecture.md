@@ -37,6 +37,13 @@ The source-facing tables must preserve controlled defects long enough for the qu
 
 DQ010 evaluates daily totals using individually valid time entries only (`HoursWorked > 0` and `HoursWorked <= 24`). This prevents a record already invalid under DQ005 from creating an unintended daily-hours anomaly by itself.
 
+## SQL Server schema boundary
+
+- `clientiq` owns source-facing operational tables and the data-quality issue log.
+- `reporting` will own trusted views for Power BI.
+- The database uses the Simple recovery model for this local portfolio workload.
+- Source identifiers involved in DQ001, DQ002, DQ003, and DQ007 do not receive foreign-key or unique enforcement before validation.
+
 ## Scope boundaries
 
 The following items are deferred unless the core MVP is complete and verified:

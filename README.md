@@ -95,6 +95,7 @@ The Mac is used for repository setup, documentation, synthetic data, and SQL aut
 - [x] MVP scope confirmed
 - [x] Initial repository scaffold created
 - [x] Synthetic data generated and validated
+- [x] SQL Server database and table foundation authored and statically validated
 - [ ] SQL Server objects implemented and tested
 - [ ] Power BI dashboards created
 - [ ] Paginated report created

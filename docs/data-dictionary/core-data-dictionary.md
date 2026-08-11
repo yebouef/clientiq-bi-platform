@@ -2,6 +2,8 @@
 
 The final SQL types may be refined during implementation. Identifier values are human-readable synthetic keys such as `C001`, `A001`, and `M0001`.
 
+The SQL Server implementation stores the operational tables in the `clientiq` schema. Each source-facing table also receives a SQL-generated `LoadedAtUTC datetime2(0)` audit timestamp during import.
+
 ## Clients
 
 | Column | Proposed SQL type | Required | Description |

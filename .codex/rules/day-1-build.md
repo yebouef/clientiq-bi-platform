@@ -8,7 +8,7 @@ Create a reproducible synthetic dataset and SQL Server reporting foundation with
 
 1. Finalize field definitions and accepted values. **Complete**
 2. Generate synthetic CSV files with documented intentional defects. **Complete**
-3. Create the ClientIQ database and six tables.
+3. Create the ClientIQ database and six tables. **Authored and statically validated; Windows execution pending**
 4. Load source data without silently correcting the intentional defects.
 5. Run ten data-quality rules and populate `DataQualityIssues`.
 6. Create trusted reporting views.

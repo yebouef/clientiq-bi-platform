@@ -21,3 +21,13 @@ node scripts/validate_synthetic_data.mjs
 ```
 
 The validator checks exact row counts, identifier uniqueness, date formats, billable-amount calculations, the defect manifest, and the expected affected-record count for DQ001 through DQ010.
+
+## Validate the SQL foundation locally
+
+Run:
+
+```bash
+node scripts/validate_sql_foundation.mjs
+```
+
+This performs structural checks on the database and table scripts. It does not replace executing the scripts in SQL Server on Windows.

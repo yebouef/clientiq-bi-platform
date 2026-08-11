@@ -1,0 +1,34 @@
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Python-generated local files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Power BI temporary and local cache files
+*.pbitmp
+*.pbix.lock
+.pbi/
+
+# SQL Server local artifacts
+*.bak
+*.mdf
+*.ldf
+
+# Secrets and local environment files
+.env
+.env.*
+!.env.example
+secrets/
+

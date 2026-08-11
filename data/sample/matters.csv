@@ -1,0 +1,11 @@
+MatterID,ClientID,MatterName,PracticeArea,LeadAttorneyID,OpenDate,CloseDate,MatterStatus,BudgetAmount
+M0001,C001,Regulatory Response 001,Employment Litigation,A001,2024-12-13,,Active,460000
+M0001,C001,Employment Advisory 002,Labor Relations,A001,2024-12-13,,Active,270000
+M0003,C003,Workplace Investigation 003,Immigration,A007,2023-05-31,,Active,100000
+M0003,C003,Safety Consultation 004,Compliance,A007,2023-05-31,,Active,50000
+M0005,C005,Compliance Assessment 005,Workplace Safety,A013,2023-04-01,,Active,120000
+M0005,C005,Employment Advisory 006,Employee Benefits,A013,2023-04-01,,Active,340000
+M0007,C007,Workplace Investigation 007,Employment Litigation,A019,2025-02-02,2025-09-18,Closed,180000
+M0007,C007,Compliance Assessment 008,Labor Relations,A019,2025-02-02,2025-09-18,Closed,470000
+M0009,C999,Policy Review 009,Immigration,A025,2023-08-18,2024-09-05,Closed,240000
+M0010,C999,Regulatory Response 010,Compliance,A028,2023-03-19,,On Hold,220000

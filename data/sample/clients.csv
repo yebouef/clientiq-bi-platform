@@ -1,0 +1,11 @@
+ClientID,ClientName,Industry,Region,ClientStatus,StartDate
+C001,Apex Manufacturing Group,Manufacturing,Northeast,Active,2018-06-23
+C002,Blue Harbor Health Systems,Healthcare,Southeast,Active,2018-04-04
+C003,Cedar Ridge Financial,Financial Services,Midwest,Active,2022-02-24
+C004,DeltaWorks Technology,Technology,Southwest,Active,2016-04-09
+C005,Evergreen Retail Partners,Retail,West,Active,2022-10-07
+C006,Frontier Transit Holdings,Transportation,Northeast,Active,2018-12-01
+C007,Granite Peak Energy,Energy,Southeast,Active,2018-12-19
+C008,Harborlight Hospitality,Hospitality,Midwest,Active,2018-03-12
+C009,Ironwood Construction,Construction,Southwest,Active,2023-12-14
+C010,Juniper Professional Services,Professional Services,West,Active,2016-05-23

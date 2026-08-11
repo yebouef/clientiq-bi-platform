@@ -1,0 +1,11 @@
+TimeEntryID,MatterID,AttorneyID,WorkDate,HoursWorked,BillingRate,BillableAmount,Description
+TE00001,M0107,A036,2025-06-25,0,375,0,Prepared for witness interview
+TE00002,M0066,A003,2026-03-17,-1,425,-425,Reviewed case documents and prepared analysis
+TE00003,M0066,A026,2026-07-03,25,525,13125,Reviewed case documents and prepared analysis
+TE00004,M0030,A020,2023-07-10,30,625,18750,Reviewed discovery materials
+TE00005,M0043,A014,2025-07-25,0,600,0,Reviewed discovery materials
+TE00006,M0129,A022,2023-05-19,-1,675,-675,Reviewed billing and budget status
+TE00007,M0133,A011,2023-12-20,25,525,13125,Drafted correspondence and legal memorandum
+TE00008,M0100,A029,2026-04-15,30,600,18000,Reviewed discovery materials
+TE00009,M0067,A001,2023-05-10,0,650,0,Coordinated matter planning with client team
+TE00010,M0139,A035,2023-07-10,-1,625,-625,Performed legal research

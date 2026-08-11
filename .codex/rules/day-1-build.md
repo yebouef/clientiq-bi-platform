@@ -6,8 +6,8 @@ Create a reproducible synthetic dataset and SQL Server reporting foundation with
 
 ## Required build order
 
-1. Finalize field definitions and accepted values.
-2. Generate synthetic CSV files with documented intentional defects.
+1. Finalize field definitions and accepted values. **Complete**
+2. Generate synthetic CSV files with documented intentional defects. **Complete**
 3. Create the ClientIQ database and six tables.
 4. Load source data without silently correcting the intentional defects.
 5. Run ten data-quality rules and populate `DataQualityIssues`.
@@ -24,3 +24,10 @@ Create a reproducible synthetic dataset and SQL Server reporting foundation with
 - Reporting views exclude or clearly flag invalid records.
 - Test output and screenshots are captured before Day 1 is marked complete.
 
+## Current evidence
+
+- Generator seed: `20260811`
+- Validator result: `PASS`
+- Billable-amount formula mismatches: `0`
+- Invalid date formats: `0`
+- Manifest rows: `268`

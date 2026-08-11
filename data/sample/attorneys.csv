@@ -1,0 +1,11 @@
+AttorneyID,AttorneyName,Office,PracticeArea,Title,BillingRate,ActiveFlag
+A001,Jordan Adams,Atlanta,Employment Litigation,Partner,,1
+A002,Taylor Hayes,Chicago,Labor Relations,Counsel,,1
+A003,Morgan Owens,Dallas,Immigration,Associate,,1
+A004,Avery Brooks,Los Angeles,Compliance,Partner,,1
+A005,Casey Irwin,New York,Workplace Safety,Counsel,,1
+A006,Riley Patel,Philadelphia,Employee Benefits,Associate,,1
+A007,Cameron Carter,Atlanta,Employment Litigation,Partner,675,1
+A008,Parker Jordan,Chicago,Labor Relations,Counsel,575,1
+A009,Quinn Reed,Dallas,Immigration,Associate,450,1
+A010,Reese Diaz,Los Angeles,Compliance,Partner,750,1

@@ -32,3 +32,5 @@ venv/
 !.env.example
 secrets/
 
+# Local generation and validation artifacts
+work/

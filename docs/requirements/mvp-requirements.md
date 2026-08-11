@@ -91,7 +91,7 @@ Approximately 3% to 5% of relevant source records will contain controlled defect
 | DQ007 | Orphan time entry | Critical | A time entry does not reference an existing matter |
 | DQ008 | Missing billing rate | Medium | An attorney or time entry has no billing rate |
 | DQ009 | Invoice before matter opened | High | `InvoiceDate` is earlier than the matter's `OpenDate` |
-| DQ010 | Potential billing anomaly | Medium | One attorney records more than 16 total hours on one date |
+| DQ010 | Potential billing anomaly | Medium | Individually valid time entries total more than 16 hours for one attorney on one date |
 
 ## 7. SQL deliverables
 
@@ -119,4 +119,3 @@ The MVP is complete when:
 4. Both Power BI dashboard pages display the required KPIs and visuals.
 5. Client, date, and practice-area filters work as designed.
 6. The repository contains setup instructions, architecture documentation, the data dictionary, and portfolio screenshots.
-

@@ -27,6 +27,16 @@ Synthetic CSV files feed SQL Server tables. A SQL stored procedure records faile
 
 The source-facing tables must preserve controlled defects long enough for the quality engine to detect them. For that reason, source business identifiers used by the validation rules are not all enforced as foreign keys. `Matters` uses a SQL-generated `MatterRowID` primary key while the source `MatterID` remains available for duplicate detection. Trusted views apply the approved reporting rules after validation.
 
+## Synthetic data baseline
+
+- Fixed generation seed: `20260811`
+- Source rows: 8,960
+- Intentionally affected records: 268, or 2.99%
+- Provisional unweighted quality score: 97.01%
+- DQ manifest coverage: DQ001 through DQ010
+
+DQ010 evaluates daily totals using individually valid time entries only (`HoursWorked > 0` and `HoursWorked <= 24`). This prevents a record already invalid under DQ005 from creating an unintended daily-hours anomaly by itself.
+
 ## Scope boundaries
 
 The following items are deferred unless the core MVP is complete and verified:

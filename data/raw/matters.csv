@@ -1,0 +1,151 @@
+MatterID,ClientID,MatterName,PracticeArea,LeadAttorneyID,OpenDate,CloseDate,MatterStatus,BudgetAmount
+M0001,C001,Regulatory Response 001,Employment Litigation,A001,2024-12-13,,Active,460000
+M0001,C001,Employment Advisory 002,Labor Relations,A001,2024-12-13,,Active,270000
+M0003,C003,Workplace Investigation 003,Immigration,A007,2023-05-31,,Active,100000
+M0003,C003,Safety Consultation 004,Compliance,A007,2023-05-31,,Active,50000
+M0005,C005,Compliance Assessment 005,Workplace Safety,A013,2023-04-01,,Active,120000
+M0005,C005,Employment Advisory 006,Employee Benefits,A013,2023-04-01,,Active,340000
+M0007,C007,Workplace Investigation 007,Employment Litigation,A019,2025-02-02,2025-09-18,Closed,180000
+M0007,C007,Compliance Assessment 008,Labor Relations,A019,2025-02-02,2025-09-18,Closed,470000
+M0009,C999,Policy Review 009,Immigration,A025,2023-08-18,2024-09-05,Closed,240000
+M0010,C999,Regulatory Response 010,Compliance,A028,2023-03-19,,On Hold,220000
+M0011,C999,Safety Consultation 011,Workplace Safety,A031,2024-03-30,,Active,310000
+M0012,,Compliance Assessment 012,Employee Benefits,A034,2024-08-06,,Active,230000
+M0013,,Benefits Review 013,Employment Litigation,A037,2025-02-08,,Active,390000
+M0014,C014,Employment Advisory 014,Labor Relations,,2025-04-26,,Active,320000
+M0015,C015,Employment Advisory 015,Immigration,,2025-08-07,,Active,500000
+M0016,C016,Regulatory Response 016,Compliance,,2023-01-11,,Active,80000
+M0017,C017,Benefits Review 017,Workplace Safety,,2023-07-25,,Active,370000
+M0018,C018,Regulatory Response 018,Employee Benefits,,2025-01-20,,Active,350000
+M0019,C019,Benefits Review 019,Employment Litigation,A018,2025-11-23,2025-10-17,Closed,460000
+M0020,C020,Compliance Assessment 020,Labor Relations,A021,2025-04-25,2025-03-15,Closed,370000
+M0021,C001,Labor Negotiation 021,Immigration,A024,2023-06-16,2023-04-25,Closed,60000
+M0022,C002,Immigration Support 022,Compliance,A027,2024-01-04,2023-12-18,Closed,400000
+M0023,C003,Policy Review 023,Workplace Safety,A030,2024-07-07,,Active,370000
+M0024,C004,Safety Consultation 024,Employee Benefits,A033,2024-01-10,,Active,450000
+M0025,C005,Litigation Defense 025,Employment Litigation,A036,2023-09-20,,Active,370000
+M0026,C006,Safety Consultation 026,Labor Relations,A002,2024-09-01,,Active,330000
+M0027,C007,Policy Review 027,Immigration,A005,2024-01-13,2024-07-26,Closed,70000
+M0028,C008,Employment Advisory 028,Compliance,A008,2025-04-03,2025-09-05,Closed,280000
+M0029,C009,Immigration Support 029,Workplace Safety,A011,2025-02-06,2025-06-09,Closed,410000
+M0030,C010,Labor Negotiation 030,Employee Benefits,A014,2023-05-14,,On Hold,50000
+M0031,C011,Employment Advisory 031,Employment Litigation,A017,2024-01-17,,Active,360000
+M0032,C012,Regulatory Response 032,Labor Relations,A020,2025-08-06,,Active,400000
+M0033,C013,Labor Negotiation 033,Immigration,A023,2024-06-18,,Active,450000
+M0034,C014,Workplace Investigation 034,Compliance,A026,2025-10-04,,Active,140000
+M0035,C015,Immigration Support 035,Workplace Safety,A029,2023-10-06,,Active,270000
+M0036,C016,Immigration Support 036,Employee Benefits,A032,2024-01-25,,Active,360000
+M0037,C017,Labor Negotiation 037,Employment Litigation,A035,2025-12-09,2026-03-13,Closed,120000
+M0038,C018,Compliance Assessment 038,Labor Relations,A001,2023-03-16,2023-11-26,Closed,460000
+M0039,C019,Workplace Investigation 039,Immigration,A004,2024-02-05,2024-08-16,Closed,400000
+M0040,C020,Benefits Review 040,Compliance,A007,2025-01-02,,On Hold,460000
+M0041,C001,Safety Consultation 041,Workplace Safety,A010,2025-07-12,,Active,120000
+M0042,C002,Litigation Defense 042,Employee Benefits,A013,2025-06-10,,Active,370000
+M0043,C003,Benefits Review 043,Employment Litigation,A016,2023-02-04,,Active,230000
+M0044,C004,Compliance Assessment 044,Labor Relations,A019,2025-07-06,,Active,80000
+M0045,C005,Workplace Investigation 045,Immigration,A022,2025-06-08,,Active,420000
+M0046,C006,Labor Negotiation 046,Compliance,A025,2024-05-25,,Active,400000
+M0047,C007,Compliance Assessment 047,Workplace Safety,A028,2024-12-09,2025-05-10,Closed,140000
+M0048,C008,Litigation Defense 048,Employee Benefits,A031,2025-12-29,2026-05-12,Closed,290000
+M0049,C009,Regulatory Response 049,Employment Litigation,A034,2023-05-06,2023-09-17,Closed,230000
+M0050,C010,Workplace Investigation 050,Labor Relations,A037,2024-10-23,,On Hold,400000
+M0051,C011,Safety Consultation 051,Immigration,A003,2024-08-16,,Active,80000
+M0052,C012,Workplace Investigation 052,Compliance,A006,2023-06-24,,Active,50000
+M0053,C013,Regulatory Response 053,Workplace Safety,A009,2025-11-24,,Active,140000
+M0054,C014,Safety Consultation 054,Employee Benefits,A012,2024-06-07,,Active,500000
+M0055,C015,Safety Consultation 055,Employment Litigation,A015,2025-02-20,,Active,360000
+M0056,C016,Labor Negotiation 056,Labor Relations,A018,2024-09-16,,Active,90000
+M0057,C017,Immigration Support 057,Immigration,A021,2024-01-07,2024-12-30,Closed,320000
+M0058,C018,Employment Advisory 058,Compliance,A024,2023-11-05,2024-06-28,Closed,300000
+M0059,C019,Employment Advisory 059,Workplace Safety,A027,2023-03-24,2024-03-21,Closed,420000
+M0060,C020,Employment Advisory 060,Employee Benefits,A030,2024-02-10,,On Hold,310000
+M0061,C001,Immigration Support 061,Employment Litigation,A033,2023-05-01,,Active,380000
+M0062,C002,Litigation Defense 062,Labor Relations,A036,2023-02-05,,Active,490000
+M0063,C003,Safety Consultation 063,Immigration,A002,2023-10-13,,Active,170000
+M0064,C004,Safety Consultation 064,Compliance,A005,2023-09-01,,Active,460000
+M0065,C005,Policy Review 065,Workplace Safety,A008,2025-09-21,,Active,250000
+M0066,C006,Regulatory Response 066,Employee Benefits,A011,2024-08-25,,Active,440000
+M0067,C007,Safety Consultation 067,Employment Litigation,A014,2023-02-17,2023-06-14,Closed,420000
+M0068,C008,Litigation Defense 068,Labor Relations,A017,2023-08-28,2024-05-22,Closed,470000
+M0069,C009,Safety Consultation 069,Immigration,A020,2025-09-15,2026-07-24,Closed,60000
+M0070,C010,Workplace Investigation 070,Compliance,A023,2025-09-10,,On Hold,320000
+M0071,C011,Employment Advisory 071,Workplace Safety,A026,2025-08-31,,Active,350000
+M0072,C012,Immigration Support 072,Employee Benefits,A029,2023-05-24,,Active,390000
+M0073,C013,Regulatory Response 073,Employment Litigation,A032,2023-07-13,,Active,110000
+M0074,C014,Policy Review 074,Labor Relations,A035,2025-10-06,,Active,250000
+M0075,C015,Immigration Support 075,Immigration,A001,2023-06-03,,Active,400000
+M0076,C016,Employment Advisory 076,Compliance,A004,2023-05-23,,Active,450000
+M0077,C017,Workplace Investigation 077,Workplace Safety,A007,2023-02-19,2024-04-07,Closed,330000
+M0078,C018,Employment Advisory 078,Employee Benefits,A010,2023-09-18,2024-09-22,Closed,330000
+M0079,C019,Policy Review 079,Employment Litigation,A013,2025-07-12,2026-06-21,Closed,380000
+M0080,C020,Compliance Assessment 080,Labor Relations,A016,2023-12-14,,On Hold,280000
+M0081,C001,Regulatory Response 081,Immigration,A019,2025-02-23,,Active,300000
+M0082,C002,Labor Negotiation 082,Compliance,A022,2024-06-17,,Active,310000
+M0083,C003,Compliance Assessment 083,Workplace Safety,A025,2024-02-26,,Active,270000
+M0084,C004,Workplace Investigation 084,Employee Benefits,A028,2024-06-23,,Active,80000
+M0085,C005,Policy Review 085,Employment Litigation,A031,2025-12-30,,Active,250000
+M0086,C006,Litigation Defense 086,Labor Relations,A034,2024-07-30,,Active,290000
+M0087,C007,Employment Advisory 087,Immigration,A037,2025-12-02,2026-07-31,Closed,180000
+M0088,C008,Workplace Investigation 088,Compliance,A003,2023-05-10,2024-05-26,Closed,180000
+M0089,C009,Labor Negotiation 089,Workplace Safety,A006,2025-05-19,2025-12-27,Closed,400000
+M0090,C010,Litigation Defense 090,Employee Benefits,A009,2023-04-22,,On Hold,450000
+M0091,C011,Immigration Support 091,Employment Litigation,A012,2023-05-05,,Active,250000
+M0092,C012,Policy Review 092,Labor Relations,A015,2023-06-17,,Active,480000
+M0093,C013,Benefits Review 093,Immigration,A018,2023-02-22,,Active,410000
+M0094,C014,Policy Review 094,Compliance,A021,2024-12-15,,Active,410000
+M0095,C015,Workplace Investigation 095,Workplace Safety,A024,2023-02-11,,Active,180000
+M0096,C016,Immigration Support 096,Employee Benefits,A027,2025-06-19,,Active,100000
+M0097,C017,Workplace Investigation 097,Employment Litigation,A030,2023-07-23,2024-04-23,Closed,180000
+M0098,C018,Litigation Defense 098,Labor Relations,A033,2023-06-13,2023-12-21,Closed,110000
+M0099,C019,Policy Review 099,Immigration,A036,2024-10-29,2025-05-03,Closed,320000
+M0100,C020,Labor Negotiation 100,Compliance,A002,2023-02-20,,On Hold,410000
+M0101,C001,Labor Negotiation 101,Workplace Safety,A005,2025-04-06,,Active,150000
+M0102,C002,Benefits Review 102,Employee Benefits,A008,2025-06-11,,Active,310000
+M0103,C003,Workplace Investigation 103,Employment Litigation,A011,2023-06-09,,Active,450000
+M0104,C004,Compliance Assessment 104,Labor Relations,A014,2025-06-17,,Active,270000
+M0105,C005,Regulatory Response 105,Immigration,A017,2024-05-11,,Active,450000
+M0106,C006,Litigation Defense 106,Compliance,A020,2024-04-01,,Active,210000
+M0107,C007,Labor Negotiation 107,Workplace Safety,A023,2025-01-18,2025-08-02,Closed,290000
+M0108,C008,Employment Advisory 108,Employee Benefits,A026,2025-02-04,2025-05-30,Closed,200000
+M0109,C009,Litigation Defense 109,Employment Litigation,A029,2025-02-19,2025-12-29,Closed,60000
+M0110,C010,Compliance Assessment 110,Labor Relations,A032,2025-12-14,,On Hold,260000
+M0111,C011,Labor Negotiation 111,Immigration,A035,2025-12-14,,Active,350000
+M0112,C012,Policy Review 112,Compliance,A001,2023-05-07,,Active,160000
+M0113,C013,Employment Advisory 113,Workplace Safety,A004,2025-04-12,,Active,400000
+M0114,C014,Litigation Defense 114,Employee Benefits,A007,2024-05-01,,Active,50000
+M0115,C015,Safety Consultation 115,Employment Litigation,A010,2025-05-02,,Active,460000
+M0116,C016,Litigation Defense 116,Labor Relations,A013,2023-11-09,,Active,250000
+M0117,C017,Workplace Investigation 117,Immigration,A016,2023-01-28,2023-11-08,Closed,450000
+M0118,C018,Benefits Review 118,Compliance,A019,2025-11-29,2026-07-31,Closed,80000
+M0119,C019,Litigation Defense 119,Workplace Safety,A022,2023-12-06,2024-04-20,Closed,450000
+M0120,C020,Policy Review 120,Employee Benefits,A025,2025-10-31,,On Hold,410000
+M0121,C001,Safety Consultation 121,Employment Litigation,A028,2024-08-04,,Active,370000
+M0122,C002,Labor Negotiation 122,Labor Relations,A031,2023-05-03,,Active,300000
+M0123,C003,Safety Consultation 123,Immigration,A034,2025-11-19,,Active,340000
+M0124,C004,Policy Review 124,Compliance,A037,2024-09-23,,Active,500000
+M0125,C005,Policy Review 125,Workplace Safety,A003,2024-04-23,,Active,460000
+M0126,C006,Policy Review 126,Employee Benefits,A006,2024-07-07,,Active,160000
+M0127,C007,Workplace Investigation 127,Employment Litigation,A009,2023-04-03,2024-01-31,Closed,130000
+M0128,C008,Policy Review 128,Labor Relations,A012,2024-03-19,2025-04-10,Closed,490000
+M0129,C009,Immigration Support 129,Immigration,A015,2023-01-07,2023-11-10,Closed,380000
+M0130,C010,Regulatory Response 130,Compliance,A018,2024-07-22,,On Hold,130000
+M0131,C011,Employment Advisory 131,Workplace Safety,A021,2024-06-05,,Active,340000
+M0132,C012,Workplace Investigation 132,Employee Benefits,A024,2025-03-03,,Active,250000
+M0133,C013,Immigration Support 133,Employment Litigation,A027,2023-10-16,,Active,260000
+M0134,C014,Immigration Support 134,Labor Relations,A030,2023-01-08,,Active,480000
+M0135,C015,Immigration Support 135,Immigration,A033,2025-02-24,,Active,170000
+M0136,C016,Employment Advisory 136,Compliance,A036,2025-11-07,,Active,160000
+M0137,C017,Regulatory Response 137,Workplace Safety,A002,2024-03-17,2025-02-24,Closed,150000
+M0138,C018,Employment Advisory 138,Employee Benefits,A005,2023-09-26,2024-03-11,Closed,360000
+M0139,C019,Safety Consultation 139,Employment Litigation,A008,2023-04-02,2024-02-04,Closed,380000
+M0140,C020,Safety Consultation 140,Labor Relations,A011,2024-12-04,,On Hold,60000
+M0141,C001,Safety Consultation 141,Immigration,A014,2025-11-30,,Active,360000
+M0142,C002,Policy Review 142,Compliance,A017,2024-01-15,,Active,330000
+M0143,C003,Policy Review 143,Workplace Safety,A020,2025-03-31,,Active,410000
+M0144,C004,Litigation Defense 144,Employee Benefits,A023,2024-05-22,,Active,340000
+M0145,C005,Litigation Defense 145,Employment Litigation,A026,2025-09-16,,Active,120000
+M0146,C006,Compliance Assessment 146,Labor Relations,A029,2023-12-23,,Active,90000
+M0147,C007,Policy Review 147,Immigration,A032,2023-02-12,2023-06-22,Closed,250000
+M0148,C008,Labor Negotiation 148,Compliance,A035,2024-08-31,2025-03-28,Closed,480000
+M0149,C009,Immigration Support 149,Workplace Safety,A001,2023-11-25,2024-12-22,Closed,190000
+M0150,C010,Benefits Review 150,Employee Benefits,A004,2025-02-21,,On Hold,470000

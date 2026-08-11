@@ -1,0 +1,269 @@
+DefectID,RuleID,TableName,SourceRowNumber,RecordID,FieldName,OriginalValue,InjectedValue,ExpectedSeverity,ExpectedIssueDescription
+DEF0001,DQ002,Matters,2,M0001@row2,MatterID,M0001,M0001,Critical,MatterID M0001 now appears in more than one source row.
+DEF0002,DQ002,Matters,3,M0001@row3,MatterID,M0002,M0001,Critical,MatterID M0002 was changed to duplicate M0001.
+DEF0003,DQ002,Matters,4,M0003@row4,MatterID,M0003,M0003,Critical,MatterID M0003 now appears in more than one source row.
+DEF0004,DQ002,Matters,5,M0003@row5,MatterID,M0004,M0003,Critical,MatterID M0004 was changed to duplicate M0003.
+DEF0005,DQ002,Matters,6,M0005@row6,MatterID,M0005,M0005,Critical,MatterID M0005 now appears in more than one source row.
+DEF0006,DQ002,Matters,7,M0005@row7,MatterID,M0006,M0005,Critical,MatterID M0006 was changed to duplicate M0005.
+DEF0007,DQ002,Matters,8,M0007@row8,MatterID,M0007,M0007,Critical,MatterID M0007 now appears in more than one source row.
+DEF0008,DQ002,Matters,9,M0007@row9,MatterID,M0008,M0007,Critical,MatterID M0008 was changed to duplicate M0007.
+DEF0009,DQ001,Matters,10,M0009@row10,ClientID,C009,C999,Critical,Matter does not reference an existing client.
+DEF0010,DQ001,Matters,11,M0010@row11,ClientID,C010,C999,Critical,Matter does not reference an existing client.
+DEF0011,DQ001,Matters,12,M0011@row12,ClientID,C011,C999,Critical,Matter does not reference an existing client.
+DEF0012,DQ001,Matters,13,M0012@row13,ClientID,C012,,Critical,Matter does not reference an existing client.
+DEF0013,DQ001,Matters,14,M0013@row14,ClientID,C013,,Critical,Matter does not reference an existing client.
+DEF0014,DQ003,Matters,15,M0014@row15,LeadAttorneyID,A003,,High,Active matter has no valid lead attorney.
+DEF0015,DQ003,Matters,16,M0015@row16,LeadAttorneyID,A006,,High,Active matter has no valid lead attorney.
+DEF0016,DQ003,Matters,17,M0016@row17,LeadAttorneyID,A009,,High,Active matter has no valid lead attorney.
+DEF0017,DQ003,Matters,18,M0017@row18,LeadAttorneyID,A012,,High,Active matter has no valid lead attorney.
+DEF0018,DQ003,Matters,19,M0018@row19,LeadAttorneyID,A015,,High,Active matter has no valid lead attorney.
+DEF0019,DQ004,Matters,20,M0019@row20,CloseDate,2026-07-31,2025-10-17,High,Matter close date is earlier than its open date.
+DEF0020,DQ004,Matters,21,M0020@row21,CloseDate,,2025-03-15,High,Matter close date is earlier than its open date.
+DEF0021,DQ004,Matters,22,M0021@row22,CloseDate,,2023-04-25,High,Matter close date is earlier than its open date.
+DEF0022,DQ004,Matters,23,M0022@row23,CloseDate,,2023-12-18,High,Matter close date is earlier than its open date.
+DEF0023,DQ005,TimeEntries,2,TE00001,HoursWorked,8,0,High,Time entry hours are less than or equal to 0 or greater than 24.
+DEF0024,DQ005,TimeEntries,3,TE00002,HoursWorked,0.5,-1,High,Time entry hours are less than or equal to 0 or greater than 24.
+DEF0025,DQ005,TimeEntries,4,TE00003,HoursWorked,2,25,High,Time entry hours are less than or equal to 0 or greater than 24.
+DEF0026,DQ005,TimeEntries,5,TE00004,HoursWorked,6.5,30,High,Time entry hours are less than or equal to 0 or greater than 24.
+DEF0027,DQ005,TimeEntries,6,TE00005,HoursWorked,5.5,0,High,Time entry hours are less than or equal to 0 or greater than 24.
+DEF0028,DQ005,TimeEntries,7,TE00006,HoursWorked,2,-1,High,Time entry hours are less than or equal to 0 or greater than 24.
+DEF0029,DQ005,TimeEntries,8,TE00007,HoursWorked,1,25,High,Time entry hours are less than or equal to 0 or greater than 24.
+DEF0030,DQ005,TimeEntries,9,TE00008,HoursWorked,7.5,30,High,Time entry hours are less than or equal to 0 or greater than 24.
+DEF0031,DQ005,TimeEntries,10,TE00009,HoursWorked,4.5,0,High,Time entry hours are less than or equal to 0 or greater than 24.
+DEF0032,DQ005,TimeEntries,11,TE00010,HoursWorked,7,-1,High,Time entry hours are less than or equal to 0 or greater than 24.
+DEF0033,DQ005,TimeEntries,12,TE00011,HoursWorked,0.5,25,High,Time entry hours are less than or equal to 0 or greater than 24.
+DEF0034,DQ005,TimeEntries,13,TE00012,HoursWorked,5,30,High,Time entry hours are less than or equal to 0 or greater than 24.
+DEF0035,DQ005,TimeEntries,14,TE00013,HoursWorked,1.5,0,High,Time entry hours are less than or equal to 0 or greater than 24.
+DEF0036,DQ005,TimeEntries,15,TE00014,HoursWorked,5.5,-1,High,Time entry hours are less than or equal to 0 or greater than 24.
+DEF0037,DQ005,TimeEntries,16,TE00015,HoursWorked,5.5,25,High,Time entry hours are less than or equal to 0 or greater than 24.
+DEF0038,DQ005,TimeEntries,17,TE00016,HoursWorked,3,30,High,Time entry hours are less than or equal to 0 or greater than 24.
+DEF0039,DQ005,TimeEntries,18,TE00017,HoursWorked,8,0,High,Time entry hours are less than or equal to 0 or greater than 24.
+DEF0040,DQ005,TimeEntries,19,TE00018,HoursWorked,4,-1,High,Time entry hours are less than or equal to 0 or greater than 24.
+DEF0041,DQ005,TimeEntries,20,TE00019,HoursWorked,3.5,25,High,Time entry hours are less than or equal to 0 or greater than 24.
+DEF0042,DQ005,TimeEntries,21,TE00020,HoursWorked,8,30,High,Time entry hours are less than or equal to 0 or greater than 24.
+DEF0043,DQ005,TimeEntries,22,TE00021,HoursWorked,7.5,0,High,Time entry hours are less than or equal to 0 or greater than 24.
+DEF0044,DQ005,TimeEntries,23,TE00022,HoursWorked,7.5,-1,High,Time entry hours are less than or equal to 0 or greater than 24.
+DEF0045,DQ005,TimeEntries,24,TE00023,HoursWorked,0.5,25,High,Time entry hours are less than or equal to 0 or greater than 24.
+DEF0046,DQ005,TimeEntries,25,TE00024,HoursWorked,6,30,High,Time entry hours are less than or equal to 0 or greater than 24.
+DEF0047,DQ005,TimeEntries,26,TE00025,HoursWorked,4.5,0,High,Time entry hours are less than or equal to 0 or greater than 24.
+DEF0048,DQ005,TimeEntries,27,TE00026,HoursWorked,1,-1,High,Time entry hours are less than or equal to 0 or greater than 24.
+DEF0049,DQ005,TimeEntries,28,TE00027,HoursWorked,5.5,25,High,Time entry hours are less than or equal to 0 or greater than 24.
+DEF0050,DQ005,TimeEntries,29,TE00028,HoursWorked,2.5,30,High,Time entry hours are less than or equal to 0 or greater than 24.
+DEF0051,DQ005,TimeEntries,30,TE00029,HoursWorked,0.5,0,High,Time entry hours are less than or equal to 0 or greater than 24.
+DEF0052,DQ005,TimeEntries,31,TE00030,HoursWorked,1.5,-1,High,Time entry hours are less than or equal to 0 or greater than 24.
+DEF0053,DQ005,TimeEntries,32,TE00031,HoursWorked,1.5,25,High,Time entry hours are less than or equal to 0 or greater than 24.
+DEF0054,DQ005,TimeEntries,33,TE00032,HoursWorked,7,30,High,Time entry hours are less than or equal to 0 or greater than 24.
+DEF0055,DQ005,TimeEntries,34,TE00033,HoursWorked,5,0,High,Time entry hours are less than or equal to 0 or greater than 24.
+DEF0056,DQ005,TimeEntries,35,TE00034,HoursWorked,4,-1,High,Time entry hours are less than or equal to 0 or greater than 24.
+DEF0057,DQ005,TimeEntries,36,TE00035,HoursWorked,7.5,25,High,Time entry hours are less than or equal to 0 or greater than 24.
+DEF0058,DQ005,TimeEntries,37,TE00036,HoursWorked,7.5,30,High,Time entry hours are less than or equal to 0 or greater than 24.
+DEF0059,DQ005,TimeEntries,38,TE00037,HoursWorked,5,0,High,Time entry hours are less than or equal to 0 or greater than 24.
+DEF0060,DQ005,TimeEntries,39,TE00038,HoursWorked,1.5,-1,High,Time entry hours are less than or equal to 0 or greater than 24.
+DEF0061,DQ005,TimeEntries,40,TE00039,HoursWorked,7,25,High,Time entry hours are less than or equal to 0 or greater than 24.
+DEF0062,DQ005,TimeEntries,41,TE00040,HoursWorked,7.5,30,High,Time entry hours are less than or equal to 0 or greater than 24.
+DEF0063,DQ007,TimeEntries,42,TE00041,MatterID,M0093,MX0001,Critical,Time entry references a MatterID that does not exist.
+DEF0064,DQ007,TimeEntries,43,TE00042,MatterID,M0005,MX0002,Critical,Time entry references a MatterID that does not exist.
+DEF0065,DQ007,TimeEntries,44,TE00043,MatterID,M0035,MX0003,Critical,Time entry references a MatterID that does not exist.
+DEF0066,DQ007,TimeEntries,45,TE00044,MatterID,M0120,MX0004,Critical,Time entry references a MatterID that does not exist.
+DEF0067,DQ007,TimeEntries,46,TE00045,MatterID,M0102,MX0005,Critical,Time entry references a MatterID that does not exist.
+DEF0068,DQ007,TimeEntries,47,TE00046,MatterID,M0076,MX0006,Critical,Time entry references a MatterID that does not exist.
+DEF0069,DQ007,TimeEntries,48,TE00047,MatterID,M0064,MX0007,Critical,Time entry references a MatterID that does not exist.
+DEF0070,DQ007,TimeEntries,49,TE00048,MatterID,M0007,MX0008,Critical,Time entry references a MatterID that does not exist.
+DEF0071,DQ007,TimeEntries,50,TE00049,MatterID,M0112,MX0009,Critical,Time entry references a MatterID that does not exist.
+DEF0072,DQ007,TimeEntries,51,TE00050,MatterID,M0132,MX0010,Critical,Time entry references a MatterID that does not exist.
+DEF0073,DQ007,TimeEntries,52,TE00051,MatterID,M0138,MX0011,Critical,Time entry references a MatterID that does not exist.
+DEF0074,DQ007,TimeEntries,53,TE00052,MatterID,M0019,MX0012,Critical,Time entry references a MatterID that does not exist.
+DEF0075,DQ007,TimeEntries,54,TE00053,MatterID,M0079,MX0013,Critical,Time entry references a MatterID that does not exist.
+DEF0076,DQ007,TimeEntries,55,TE00054,MatterID,M0115,MX0014,Critical,Time entry references a MatterID that does not exist.
+DEF0077,DQ007,TimeEntries,56,TE00055,MatterID,M0079,MX0015,Critical,Time entry references a MatterID that does not exist.
+DEF0078,DQ007,TimeEntries,57,TE00056,MatterID,M0139,MX0016,Critical,Time entry references a MatterID that does not exist.
+DEF0079,DQ007,TimeEntries,58,TE00057,MatterID,M0067,MX0017,Critical,Time entry references a MatterID that does not exist.
+DEF0080,DQ007,TimeEntries,59,TE00058,MatterID,M0121,MX0018,Critical,Time entry references a MatterID that does not exist.
+DEF0081,DQ007,TimeEntries,60,TE00059,MatterID,M0149,MX0019,Critical,Time entry references a MatterID that does not exist.
+DEF0082,DQ007,TimeEntries,61,TE00060,MatterID,M0062,MX0020,Critical,Time entry references a MatterID that does not exist.
+DEF0083,DQ007,TimeEntries,62,TE00061,MatterID,M0067,MX0021,Critical,Time entry references a MatterID that does not exist.
+DEF0084,DQ007,TimeEntries,63,TE00062,MatterID,M0074,MX0022,Critical,Time entry references a MatterID that does not exist.
+DEF0085,DQ007,TimeEntries,64,TE00063,MatterID,M0079,MX0023,Critical,Time entry references a MatterID that does not exist.
+DEF0086,DQ007,TimeEntries,65,TE00064,MatterID,M0034,MX0024,Critical,Time entry references a MatterID that does not exist.
+DEF0087,DQ007,TimeEntries,66,TE00065,MatterID,M0024,MX0025,Critical,Time entry references a MatterID that does not exist.
+DEF0088,DQ007,TimeEntries,67,TE00066,MatterID,M0038,MX0026,Critical,Time entry references a MatterID that does not exist.
+DEF0089,DQ007,TimeEntries,68,TE00067,MatterID,M0037,MX0027,Critical,Time entry references a MatterID that does not exist.
+DEF0090,DQ007,TimeEntries,69,TE00068,MatterID,M0030,MX0028,Critical,Time entry references a MatterID that does not exist.
+DEF0091,DQ007,TimeEntries,70,TE00069,MatterID,M0049,MX0029,Critical,Time entry references a MatterID that does not exist.
+DEF0092,DQ007,TimeEntries,71,TE00070,MatterID,M0131,MX0030,Critical,Time entry references a MatterID that does not exist.
+DEF0093,DQ007,TimeEntries,72,TE00071,MatterID,M0107,MX0031,Critical,Time entry references a MatterID that does not exist.
+DEF0094,DQ007,TimeEntries,73,TE00072,MatterID,M0044,MX0032,Critical,Time entry references a MatterID that does not exist.
+DEF0095,DQ007,TimeEntries,74,TE00073,MatterID,M0027,MX0033,Critical,Time entry references a MatterID that does not exist.
+DEF0096,DQ007,TimeEntries,75,TE00074,MatterID,M0085,MX0034,Critical,Time entry references a MatterID that does not exist.
+DEF0097,DQ007,TimeEntries,76,TE00075,MatterID,M0017,MX0035,Critical,Time entry references a MatterID that does not exist.
+DEF0098,DQ007,TimeEntries,77,TE00076,MatterID,M0084,MX0036,Critical,Time entry references a MatterID that does not exist.
+DEF0099,DQ007,TimeEntries,78,TE00077,MatterID,M0135,MX0037,Critical,Time entry references a MatterID that does not exist.
+DEF0100,DQ007,TimeEntries,79,TE00078,MatterID,M0014,MX0038,Critical,Time entry references a MatterID that does not exist.
+DEF0101,DQ007,TimeEntries,80,TE00079,MatterID,M0031,MX0039,Critical,Time entry references a MatterID that does not exist.
+DEF0102,DQ007,TimeEntries,81,TE00080,MatterID,M0148,MX0040,Critical,Time entry references a MatterID that does not exist.
+DEF0103,DQ007,TimeEntries,82,TE00081,MatterID,M0082,MX0041,Critical,Time entry references a MatterID that does not exist.
+DEF0104,DQ007,TimeEntries,83,TE00082,MatterID,M0098,MX0042,Critical,Time entry references a MatterID that does not exist.
+DEF0105,DQ007,TimeEntries,84,TE00083,MatterID,M0081,MX0043,Critical,Time entry references a MatterID that does not exist.
+DEF0106,DQ007,TimeEntries,85,TE00084,MatterID,M0135,MX0044,Critical,Time entry references a MatterID that does not exist.
+DEF0107,DQ007,TimeEntries,86,TE00085,MatterID,M0081,MX0045,Critical,Time entry references a MatterID that does not exist.
+DEF0108,DQ007,TimeEntries,87,TE00086,MatterID,M0040,MX0046,Critical,Time entry references a MatterID that does not exist.
+DEF0109,DQ007,TimeEntries,88,TE00087,MatterID,M0017,MX0047,Critical,Time entry references a MatterID that does not exist.
+DEF0110,DQ007,TimeEntries,89,TE00088,MatterID,M0032,MX0048,Critical,Time entry references a MatterID that does not exist.
+DEF0111,DQ007,TimeEntries,90,TE00089,MatterID,M0139,MX0049,Critical,Time entry references a MatterID that does not exist.
+DEF0112,DQ007,TimeEntries,91,TE00090,MatterID,M0128,MX0050,Critical,Time entry references a MatterID that does not exist.
+DEF0113,DQ008,TimeEntries,92,TE00091,BillingRate,675,,Medium,Time entry has no billing rate.
+DEF0114,DQ008,TimeEntries,93,TE00092,BillingRate,550,,Medium,Time entry has no billing rate.
+DEF0115,DQ008,TimeEntries,94,TE00093,BillingRate,750,,Medium,Time entry has no billing rate.
+DEF0116,DQ008,TimeEntries,95,TE00094,BillingRate,400,,Medium,Time entry has no billing rate.
+DEF0117,DQ008,TimeEntries,96,TE00095,BillingRate,525,,Medium,Time entry has no billing rate.
+DEF0118,DQ008,TimeEntries,97,TE00096,BillingRate,575,,Medium,Time entry has no billing rate.
+DEF0119,DQ008,TimeEntries,98,TE00097,BillingRate,600,,Medium,Time entry has no billing rate.
+DEF0120,DQ008,TimeEntries,99,TE00098,BillingRate,400,,Medium,Time entry has no billing rate.
+DEF0121,DQ008,TimeEntries,100,TE00099,BillingRate,400,,Medium,Time entry has no billing rate.
+DEF0122,DQ008,TimeEntries,101,TE00100,BillingRate,675,,Medium,Time entry has no billing rate.
+DEF0123,DQ008,TimeEntries,102,TE00101,BillingRate,725,,Medium,Time entry has no billing rate.
+DEF0124,DQ008,TimeEntries,103,TE00102,BillingRate,375,,Medium,Time entry has no billing rate.
+DEF0125,DQ008,TimeEntries,104,TE00103,BillingRate,550,,Medium,Time entry has no billing rate.
+DEF0126,DQ008,TimeEntries,105,TE00104,BillingRate,625,,Medium,Time entry has no billing rate.
+DEF0127,DQ008,TimeEntries,106,TE00105,BillingRate,750,,Medium,Time entry has no billing rate.
+DEF0128,DQ008,TimeEntries,107,TE00106,BillingRate,475,,Medium,Time entry has no billing rate.
+DEF0129,DQ008,TimeEntries,108,TE00107,BillingRate,375,,Medium,Time entry has no billing rate.
+DEF0130,DQ008,TimeEntries,109,TE00108,BillingRate,450,,Medium,Time entry has no billing rate.
+DEF0131,DQ008,TimeEntries,110,TE00109,BillingRate,425,,Medium,Time entry has no billing rate.
+DEF0132,DQ008,TimeEntries,111,TE00110,BillingRate,575,,Medium,Time entry has no billing rate.
+DEF0133,DQ010,TimeEntries,112,TE00111,AttorneyID|WorkDate|HoursWorked,A021|2024-10-01|1,A007|2026-08-01|6,Medium,Attorney A007 has more than 16 total hours on 2026-08-01.
+DEF0134,DQ010,TimeEntries,113,TE00112,AttorneyID|WorkDate|HoursWorked,A027|2025-07-19|1.5,A007|2026-08-01|6,Medium,Attorney A007 has more than 16 total hours on 2026-08-01.
+DEF0135,DQ010,TimeEntries,114,TE00113,AttorneyID|WorkDate|HoursWorked,A032|2026-07-12|4,A007|2026-08-01|6,Medium,Attorney A007 has more than 16 total hours on 2026-08-01.
+DEF0136,DQ010,TimeEntries,115,TE00114,AttorneyID|WorkDate|HoursWorked,A025|2025-02-08|4.5,A008|2026-08-01|6,Medium,Attorney A008 has more than 16 total hours on 2026-08-01.
+DEF0137,DQ010,TimeEntries,116,TE00115,AttorneyID|WorkDate|HoursWorked,A035|2025-12-22|5,A008|2026-08-01|6,Medium,Attorney A008 has more than 16 total hours on 2026-08-01.
+DEF0138,DQ010,TimeEntries,117,TE00116,AttorneyID|WorkDate|HoursWorked,A030|2025-07-08|5.5,A008|2026-08-01|6,Medium,Attorney A008 has more than 16 total hours on 2026-08-01.
+DEF0139,DQ010,TimeEntries,118,TE00117,AttorneyID|WorkDate|HoursWorked,A020|2026-01-21|5.5,A009|2026-08-01|6,Medium,Attorney A009 has more than 16 total hours on 2026-08-01.
+DEF0140,DQ010,TimeEntries,119,TE00118,AttorneyID|WorkDate|HoursWorked,A004|2024-09-26|1,A009|2026-08-01|6,Medium,Attorney A009 has more than 16 total hours on 2026-08-01.
+DEF0141,DQ010,TimeEntries,120,TE00119,AttorneyID|WorkDate|HoursWorked,A016|2025-06-23|7,A009|2026-08-01|6,Medium,Attorney A009 has more than 16 total hours on 2026-08-01.
+DEF0142,DQ010,TimeEntries,121,TE00120,AttorneyID|WorkDate|HoursWorked,A007|2024-02-11|5.5,A010|2026-08-01|6,Medium,Attorney A010 has more than 16 total hours on 2026-08-01.
+DEF0143,DQ010,TimeEntries,122,TE00121,AttorneyID|WorkDate|HoursWorked,A018|2024-11-10|6,A010|2026-08-01|6,Medium,Attorney A010 has more than 16 total hours on 2026-08-01.
+DEF0144,DQ010,TimeEntries,123,TE00122,AttorneyID|WorkDate|HoursWorked,A024|2025-08-25|6,A010|2026-08-01|6,Medium,Attorney A010 has more than 16 total hours on 2026-08-01.
+DEF0145,DQ010,TimeEntries,124,TE00123,AttorneyID|WorkDate|HoursWorked,A030|2023-06-28|3,A011|2026-08-01|6,Medium,Attorney A011 has more than 16 total hours on 2026-08-01.
+DEF0146,DQ010,TimeEntries,125,TE00124,AttorneyID|WorkDate|HoursWorked,A017|2026-03-01|6.5,A011|2026-08-01|6,Medium,Attorney A011 has more than 16 total hours on 2026-08-01.
+DEF0147,DQ010,TimeEntries,126,TE00125,AttorneyID|WorkDate|HoursWorked,A016|2025-04-06|3,A011|2026-08-01|6,Medium,Attorney A011 has more than 16 total hours on 2026-08-01.
+DEF0148,DQ010,TimeEntries,127,TE00126,AttorneyID|WorkDate|HoursWorked,A021|2024-03-15|3,A012|2026-08-01|6,Medium,Attorney A012 has more than 16 total hours on 2026-08-01.
+DEF0149,DQ010,TimeEntries,128,TE00127,AttorneyID|WorkDate|HoursWorked,A034|2023-07-13|5.5,A012|2026-08-01|6,Medium,Attorney A012 has more than 16 total hours on 2026-08-01.
+DEF0150,DQ010,TimeEntries,129,TE00128,AttorneyID|WorkDate|HoursWorked,A004|2023-10-26|1.5,A012|2026-08-01|6,Medium,Attorney A012 has more than 16 total hours on 2026-08-01.
+DEF0151,DQ010,TimeEntries,130,TE00129,AttorneyID|WorkDate|HoursWorked,A033|2026-01-10|6,A013|2026-08-01|6,Medium,Attorney A013 has more than 16 total hours on 2026-08-01.
+DEF0152,DQ010,TimeEntries,131,TE00130,AttorneyID|WorkDate|HoursWorked,A002|2026-04-13|3,A013|2026-08-01|6,Medium,Attorney A013 has more than 16 total hours on 2026-08-01.
+DEF0153,DQ010,TimeEntries,132,TE00131,AttorneyID|WorkDate|HoursWorked,A019|2026-03-14|5.5,A013|2026-08-01|6,Medium,Attorney A013 has more than 16 total hours on 2026-08-01.
+DEF0154,DQ010,TimeEntries,133,TE00132,AttorneyID|WorkDate|HoursWorked,A002|2024-05-27|7,A014|2026-08-01|6,Medium,Attorney A014 has more than 16 total hours on 2026-08-01.
+DEF0155,DQ010,TimeEntries,134,TE00133,AttorneyID|WorkDate|HoursWorked,A036|2025-06-19|3.5,A014|2026-08-01|6,Medium,Attorney A014 has more than 16 total hours on 2026-08-01.
+DEF0156,DQ010,TimeEntries,135,TE00134,AttorneyID|WorkDate|HoursWorked,A025|2026-07-19|7,A014|2026-08-01|6,Medium,Attorney A014 has more than 16 total hours on 2026-08-01.
+DEF0157,DQ010,TimeEntries,136,TE00135,AttorneyID|WorkDate|HoursWorked,A028|2024-11-01|5,A015|2026-08-01|6,Medium,Attorney A015 has more than 16 total hours on 2026-08-01.
+DEF0158,DQ010,TimeEntries,137,TE00136,AttorneyID|WorkDate|HoursWorked,A018|2025-12-16|7.5,A015|2026-08-01|6,Medium,Attorney A015 has more than 16 total hours on 2026-08-01.
+DEF0159,DQ010,TimeEntries,138,TE00137,AttorneyID|WorkDate|HoursWorked,A025|2025-12-26|0.5,A015|2026-08-01|6,Medium,Attorney A015 has more than 16 total hours on 2026-08-01.
+DEF0160,DQ010,TimeEntries,139,TE00138,AttorneyID|WorkDate|HoursWorked,A008|2024-08-27|7,A016|2026-08-01|6,Medium,Attorney A016 has more than 16 total hours on 2026-08-01.
+DEF0161,DQ010,TimeEntries,140,TE00139,AttorneyID|WorkDate|HoursWorked,A021|2026-05-05|0.5,A016|2026-08-01|6,Medium,Attorney A016 has more than 16 total hours on 2026-08-01.
+DEF0162,DQ010,TimeEntries,141,TE00140,AttorneyID|WorkDate|HoursWorked,A008|2026-07-23|0.5,A016|2026-08-01|6,Medium,Attorney A016 has more than 16 total hours on 2026-08-01.
+DEF0163,DQ010,TimeEntries,142,TE00141,AttorneyID|WorkDate|HoursWorked,A037|2023-10-01|7,A007|2026-08-02|6,Medium,Attorney A007 has more than 16 total hours on 2026-08-02.
+DEF0164,DQ010,TimeEntries,143,TE00142,AttorneyID|WorkDate|HoursWorked,A020|2024-08-05|3.5,A007|2026-08-02|6,Medium,Attorney A007 has more than 16 total hours on 2026-08-02.
+DEF0165,DQ010,TimeEntries,144,TE00143,AttorneyID|WorkDate|HoursWorked,A018|2025-04-18|4.5,A007|2026-08-02|6,Medium,Attorney A007 has more than 16 total hours on 2026-08-02.
+DEF0166,DQ010,TimeEntries,145,TE00144,AttorneyID|WorkDate|HoursWorked,A002|2026-05-29|7,A008|2026-08-02|6,Medium,Attorney A008 has more than 16 total hours on 2026-08-02.
+DEF0167,DQ010,TimeEntries,146,TE00145,AttorneyID|WorkDate|HoursWorked,A028|2025-05-30|7,A008|2026-08-02|6,Medium,Attorney A008 has more than 16 total hours on 2026-08-02.
+DEF0168,DQ010,TimeEntries,147,TE00146,AttorneyID|WorkDate|HoursWorked,A032|2025-07-30|7,A008|2026-08-02|6,Medium,Attorney A008 has more than 16 total hours on 2026-08-02.
+DEF0169,DQ010,TimeEntries,148,TE00147,AttorneyID|WorkDate|HoursWorked,A029|2026-01-15|5.5,A009|2026-08-02|6,Medium,Attorney A009 has more than 16 total hours on 2026-08-02.
+DEF0170,DQ010,TimeEntries,149,TE00148,AttorneyID|WorkDate|HoursWorked,A026|2025-08-09|0.5,A009|2026-08-02|6,Medium,Attorney A009 has more than 16 total hours on 2026-08-02.
+DEF0171,DQ010,TimeEntries,150,TE00149,AttorneyID|WorkDate|HoursWorked,A004|2026-04-16|2.5,A009|2026-08-02|6,Medium,Attorney A009 has more than 16 total hours on 2026-08-02.
+DEF0172,DQ010,TimeEntries,151,TE00150,AttorneyID|WorkDate|HoursWorked,A029|2026-07-07|4.5,A010|2026-08-02|6,Medium,Attorney A010 has more than 16 total hours on 2026-08-02.
+DEF0173,DQ010,TimeEntries,152,TE00151,AttorneyID|WorkDate|HoursWorked,A037|2026-04-23|6.5,A010|2026-08-02|6,Medium,Attorney A010 has more than 16 total hours on 2026-08-02.
+DEF0174,DQ010,TimeEntries,153,TE00152,AttorneyID|WorkDate|HoursWorked,A003|2024-07-09|8,A010|2026-08-02|6,Medium,Attorney A010 has more than 16 total hours on 2026-08-02.
+DEF0175,DQ010,TimeEntries,154,TE00153,AttorneyID|WorkDate|HoursWorked,A002|2026-07-02|2.5,A011|2026-08-02|6,Medium,Attorney A011 has more than 16 total hours on 2026-08-02.
+DEF0176,DQ010,TimeEntries,155,TE00154,AttorneyID|WorkDate|HoursWorked,A002|2025-05-28|7.5,A011|2026-08-02|6,Medium,Attorney A011 has more than 16 total hours on 2026-08-02.
+DEF0177,DQ010,TimeEntries,156,TE00155,AttorneyID|WorkDate|HoursWorked,A018|2023-08-29|5,A011|2026-08-02|6,Medium,Attorney A011 has more than 16 total hours on 2026-08-02.
+DEF0178,DQ010,TimeEntries,157,TE00156,AttorneyID|WorkDate|HoursWorked,A013|2024-10-07|5,A012|2026-08-02|6,Medium,Attorney A012 has more than 16 total hours on 2026-08-02.
+DEF0179,DQ010,TimeEntries,158,TE00157,AttorneyID|WorkDate|HoursWorked,A018|2023-04-17|2.5,A012|2026-08-02|6,Medium,Attorney A012 has more than 16 total hours on 2026-08-02.
+DEF0180,DQ010,TimeEntries,159,TE00158,AttorneyID|WorkDate|HoursWorked,A021|2025-10-22|4,A012|2026-08-02|6,Medium,Attorney A012 has more than 16 total hours on 2026-08-02.
+DEF0181,DQ010,TimeEntries,160,TE00159,AttorneyID|WorkDate|HoursWorked,A010|2026-04-23|4.5,A013|2026-08-02|6,Medium,Attorney A013 has more than 16 total hours on 2026-08-02.
+DEF0182,DQ010,TimeEntries,161,TE00160,AttorneyID|WorkDate|HoursWorked,A022|2024-11-27|1.5,A013|2026-08-02|6,Medium,Attorney A013 has more than 16 total hours on 2026-08-02.
+DEF0183,DQ010,TimeEntries,162,TE00161,AttorneyID|WorkDate|HoursWorked,A003|2025-06-03|7.5,A013|2026-08-02|6,Medium,Attorney A013 has more than 16 total hours on 2026-08-02.
+DEF0184,DQ010,TimeEntries,163,TE00162,AttorneyID|WorkDate|HoursWorked,A004|2023-09-14|2,A014|2026-08-02|6,Medium,Attorney A014 has more than 16 total hours on 2026-08-02.
+DEF0185,DQ010,TimeEntries,164,TE00163,AttorneyID|WorkDate|HoursWorked,A016|2025-08-23|8,A014|2026-08-02|6,Medium,Attorney A014 has more than 16 total hours on 2026-08-02.
+DEF0186,DQ010,TimeEntries,165,TE00164,AttorneyID|WorkDate|HoursWorked,A037|2025-09-08|1.5,A014|2026-08-02|6,Medium,Attorney A014 has more than 16 total hours on 2026-08-02.
+DEF0187,DQ010,TimeEntries,166,TE00165,AttorneyID|WorkDate|HoursWorked,A005|2025-07-31|0.5,A015|2026-08-02|6,Medium,Attorney A015 has more than 16 total hours on 2026-08-02.
+DEF0188,DQ010,TimeEntries,167,TE00166,AttorneyID|WorkDate|HoursWorked,A004|2026-01-14|5.5,A015|2026-08-02|6,Medium,Attorney A015 has more than 16 total hours on 2026-08-02.
+DEF0189,DQ010,TimeEntries,168,TE00167,AttorneyID|WorkDate|HoursWorked,A017|2024-02-15|4,A015|2026-08-02|6,Medium,Attorney A015 has more than 16 total hours on 2026-08-02.
+DEF0190,DQ010,TimeEntries,169,TE00168,AttorneyID|WorkDate|HoursWorked,A031|2026-03-13|2,A016|2026-08-02|6,Medium,Attorney A016 has more than 16 total hours on 2026-08-02.
+DEF0191,DQ010,TimeEntries,170,TE00169,AttorneyID|WorkDate|HoursWorked,A008|2023-08-06|1.5,A016|2026-08-02|6,Medium,Attorney A016 has more than 16 total hours on 2026-08-02.
+DEF0192,DQ010,TimeEntries,171,TE00170,AttorneyID|WorkDate|HoursWorked,A010|2024-04-28|6,A016|2026-08-02|6,Medium,Attorney A016 has more than 16 total hours on 2026-08-02.
+DEF0193,DQ010,TimeEntries,172,TE00171,AttorneyID|WorkDate|HoursWorked,A025|2025-02-16|6,A007|2026-08-03|6,Medium,Attorney A007 has more than 16 total hours on 2026-08-03.
+DEF0194,DQ010,TimeEntries,173,TE00172,AttorneyID|WorkDate|HoursWorked,A021|2024-01-25|3.5,A007|2026-08-03|6,Medium,Attorney A007 has more than 16 total hours on 2026-08-03.
+DEF0195,DQ010,TimeEntries,174,TE00173,AttorneyID|WorkDate|HoursWorked,A001|2025-09-03|7,A007|2026-08-03|6,Medium,Attorney A007 has more than 16 total hours on 2026-08-03.
+DEF0196,DQ010,TimeEntries,175,TE00174,AttorneyID|WorkDate|HoursWorked,A019|2024-04-17|4,A008|2026-08-03|6,Medium,Attorney A008 has more than 16 total hours on 2026-08-03.
+DEF0197,DQ010,TimeEntries,176,TE00175,AttorneyID|WorkDate|HoursWorked,A033|2024-03-04|5,A008|2026-08-03|6,Medium,Attorney A008 has more than 16 total hours on 2026-08-03.
+DEF0198,DQ010,TimeEntries,177,TE00176,AttorneyID|WorkDate|HoursWorked,A037|2024-11-07|0.5,A008|2026-08-03|6,Medium,Attorney A008 has more than 16 total hours on 2026-08-03.
+DEF0199,DQ010,TimeEntries,178,TE00177,AttorneyID|WorkDate|HoursWorked,A037|2024-09-08|1.5,A009|2026-08-03|6,Medium,Attorney A009 has more than 16 total hours on 2026-08-03.
+DEF0200,DQ010,TimeEntries,179,TE00178,AttorneyID|WorkDate|HoursWorked,A023|2024-01-13|5.5,A009|2026-08-03|6,Medium,Attorney A009 has more than 16 total hours on 2026-08-03.
+DEF0201,DQ010,TimeEntries,180,TE00179,AttorneyID|WorkDate|HoursWorked,A007|2024-03-04|7.5,A009|2026-08-03|6,Medium,Attorney A009 has more than 16 total hours on 2026-08-03.
+DEF0202,DQ010,TimeEntries,181,TE00180,AttorneyID|WorkDate|HoursWorked,A027|2025-07-07|0.5,A010|2026-08-03|6,Medium,Attorney A010 has more than 16 total hours on 2026-08-03.
+DEF0203,DQ010,TimeEntries,182,TE00181,AttorneyID|WorkDate|HoursWorked,A017|2025-12-17|8,A010|2026-08-03|6,Medium,Attorney A010 has more than 16 total hours on 2026-08-03.
+DEF0204,DQ010,TimeEntries,183,TE00182,AttorneyID|WorkDate|HoursWorked,A016|2024-07-14|7.5,A010|2026-08-03|6,Medium,Attorney A010 has more than 16 total hours on 2026-08-03.
+DEF0205,DQ010,TimeEntries,184,TE00183,AttorneyID|WorkDate|HoursWorked,A025|2023-04-04|2.5,A011|2026-08-03|6,Medium,Attorney A011 has more than 16 total hours on 2026-08-03.
+DEF0206,DQ010,TimeEntries,185,TE00184,AttorneyID|WorkDate|HoursWorked,A008|2026-05-08|4.5,A011|2026-08-03|6,Medium,Attorney A011 has more than 16 total hours on 2026-08-03.
+DEF0207,DQ010,TimeEntries,186,TE00185,AttorneyID|WorkDate|HoursWorked,A004|2026-06-16|5.5,A011|2026-08-03|6,Medium,Attorney A011 has more than 16 total hours on 2026-08-03.
+DEF0208,DQ010,TimeEntries,187,TE00186,AttorneyID|WorkDate|HoursWorked,A005|2026-04-26|0.5,A012|2026-08-03|6,Medium,Attorney A012 has more than 16 total hours on 2026-08-03.
+DEF0209,DQ010,TimeEntries,188,TE00187,AttorneyID|WorkDate|HoursWorked,A028|2025-10-04|0.5,A012|2026-08-03|6,Medium,Attorney A012 has more than 16 total hours on 2026-08-03.
+DEF0210,DQ010,TimeEntries,189,TE00188,AttorneyID|WorkDate|HoursWorked,A014|2023-07-16|4.5,A012|2026-08-03|6,Medium,Attorney A012 has more than 16 total hours on 2026-08-03.
+DEF0211,DQ010,TimeEntries,190,TE00189,AttorneyID|WorkDate|HoursWorked,A033|2025-11-02|4,A013|2026-08-03|6,Medium,Attorney A013 has more than 16 total hours on 2026-08-03.
+DEF0212,DQ010,TimeEntries,191,TE00190,AttorneyID|WorkDate|HoursWorked,A022|2026-03-01|8,A013|2026-08-03|6,Medium,Attorney A013 has more than 16 total hours on 2026-08-03.
+DEF0213,DQ010,TimeEntries,192,TE00191,AttorneyID|WorkDate|HoursWorked,A010|2026-03-15|7.5,A013|2026-08-03|6,Medium,Attorney A013 has more than 16 total hours on 2026-08-03.
+DEF0214,DQ010,TimeEntries,193,TE00192,AttorneyID|WorkDate|HoursWorked,A007|2026-03-30|0.5,A014|2026-08-03|6,Medium,Attorney A014 has more than 16 total hours on 2026-08-03.
+DEF0215,DQ010,TimeEntries,194,TE00193,AttorneyID|WorkDate|HoursWorked,A023|2024-02-11|6.5,A014|2026-08-03|6,Medium,Attorney A014 has more than 16 total hours on 2026-08-03.
+DEF0216,DQ010,TimeEntries,195,TE00194,AttorneyID|WorkDate|HoursWorked,A037|2025-04-30|3.5,A014|2026-08-03|6,Medium,Attorney A014 has more than 16 total hours on 2026-08-03.
+DEF0217,DQ010,TimeEntries,196,TE00195,AttorneyID|WorkDate|HoursWorked,A016|2023-09-26|0.5,A015|2026-08-03|6,Medium,Attorney A015 has more than 16 total hours on 2026-08-03.
+DEF0218,DQ010,TimeEntries,197,TE00196,AttorneyID|WorkDate|HoursWorked,A018|2025-11-24|3.5,A015|2026-08-03|6,Medium,Attorney A015 has more than 16 total hours on 2026-08-03.
+DEF0219,DQ010,TimeEntries,198,TE00197,AttorneyID|WorkDate|HoursWorked,A011|2025-03-20|1.5,A015|2026-08-03|6,Medium,Attorney A015 has more than 16 total hours on 2026-08-03.
+DEF0220,DQ010,TimeEntries,199,TE00198,AttorneyID|WorkDate|HoursWorked,A005|2026-02-23|8,A016|2026-08-03|6,Medium,Attorney A016 has more than 16 total hours on 2026-08-03.
+DEF0221,DQ010,TimeEntries,200,TE00199,AttorneyID|WorkDate|HoursWorked,A006|2025-07-08|1,A016|2026-08-03|6,Medium,Attorney A016 has more than 16 total hours on 2026-08-03.
+DEF0222,DQ010,TimeEntries,201,TE00200,AttorneyID|WorkDate|HoursWorked,A034|2024-07-16|6,A016|2026-08-03|6,Medium,Attorney A016 has more than 16 total hours on 2026-08-03.
+DEF0223,DQ006,Invoices,2,INV0001,InvoiceAmount,51300.73,-51300.73,Critical,Invoice amount is below zero.
+DEF0224,DQ006,Invoices,3,INV0002,InvoiceAmount,71400.7,-71400.7,Critical,Invoice amount is below zero.
+DEF0225,DQ006,Invoices,4,INV0003,InvoiceAmount,3800.13,-3800.13,Critical,Invoice amount is below zero.
+DEF0226,DQ006,Invoices,5,INV0004,InvoiceAmount,23300.06,-23300.06,Critical,Invoice amount is below zero.
+DEF0227,DQ006,Invoices,6,INV0005,InvoiceAmount,58200.75,-58200.75,Critical,Invoice amount is below zero.
+DEF0228,DQ006,Invoices,7,INV0006,InvoiceAmount,13100.74,-13100.74,Critical,Invoice amount is below zero.
+DEF0229,DQ006,Invoices,8,INV0007,InvoiceAmount,65700.93,-65700.93,Critical,Invoice amount is below zero.
+DEF0230,DQ006,Invoices,9,INV0008,InvoiceAmount,44900.24,-44900.24,Critical,Invoice amount is below zero.
+DEF0231,DQ006,Invoices,10,INV0009,InvoiceAmount,34300.17,-34300.17,Critical,Invoice amount is below zero.
+DEF0232,DQ006,Invoices,11,INV0010,InvoiceAmount,54200.16,-54200.16,Critical,Invoice amount is below zero.
+DEF0233,DQ006,Invoices,12,INV0011,InvoiceAmount,46000.98,-46000.98,Critical,Invoice amount is below zero.
+DEF0234,DQ006,Invoices,13,INV0012,InvoiceAmount,64300.51,-64300.51,Critical,Invoice amount is below zero.
+DEF0235,DQ006,Invoices,14,INV0013,InvoiceAmount,4200.1,-4200.1,Critical,Invoice amount is below zero.
+DEF0236,DQ006,Invoices,15,INV0014,InvoiceAmount,7400.21,-7400.21,Critical,Invoice amount is below zero.
+DEF0237,DQ006,Invoices,16,INV0015,InvoiceAmount,53100.44,-53100.44,Critical,Invoice amount is below zero.
+DEF0238,DQ009,Invoices,17,INV0016,InvoiceDate,2025-12-24,2024-12-25,High,Invoice date is earlier than the related matter open date.
+DEF0239,DQ009,Invoices,18,INV0017,InvoiceDate,2025-08-16,2023-11-23,High,Invoice date is earlier than the related matter open date.
+DEF0240,DQ009,Invoices,19,INV0018,InvoiceDate,2025-03-07,2025-01-22,High,Invoice date is earlier than the related matter open date.
+DEF0241,DQ009,Invoices,20,INV0019,InvoiceDate,2024-06-04,2024-01-29,High,Invoice date is earlier than the related matter open date.
+DEF0242,DQ009,Invoices,21,INV0020,InvoiceDate,2026-04-24,2025-08-08,High,Invoice date is earlier than the related matter open date.
+DEF0243,DQ009,Invoices,22,INV0021,InvoiceDate,2025-01-03,2024-05-01,High,Invoice date is earlier than the related matter open date.
+DEF0244,DQ009,Invoices,23,INV0022,InvoiceDate,2024-01-07,2023-07-03,High,Invoice date is earlier than the related matter open date.
+DEF0245,DQ009,Invoices,24,INV0023,InvoiceDate,2025-09-12,2025-04-22,High,Invoice date is earlier than the related matter open date.
+DEF0246,DQ009,Invoices,25,INV0024,InvoiceDate,2025-01-27,2023-04-28,High,Invoice date is earlier than the related matter open date.
+DEF0247,DQ009,Invoices,26,INV0025,InvoiceDate,2025-11-23,2024-06-07,High,Invoice date is earlier than the related matter open date.
+DEF0248,DQ009,Invoices,27,INV0026,InvoiceDate,2026-03-09,2024-04-10,High,Invoice date is earlier than the related matter open date.
+DEF0249,DQ009,Invoices,28,INV0027,InvoiceDate,2025-05-25,2025-04-25,High,Invoice date is earlier than the related matter open date.
+DEF0250,DQ009,Invoices,29,INV0028,InvoiceDate,2025-02-10,2023-12-24,High,Invoice date is earlier than the related matter open date.
+DEF0251,DQ009,Invoices,30,INV0029,InvoiceDate,2025-05-30,2025-03-21,High,Invoice date is earlier than the related matter open date.
+DEF0252,DQ009,Invoices,31,INV0030,InvoiceDate,2024-12-10,2023-03-23,High,Invoice date is earlier than the related matter open date.
+DEF0253,DQ009,Invoices,32,INV0031,InvoiceDate,2025-03-03,2025-01-07,High,Invoice date is earlier than the related matter open date.
+DEF0254,DQ009,Invoices,33,INV0032,InvoiceDate,2025-03-31,2024-12-12,High,Invoice date is earlier than the related matter open date.
+DEF0255,DQ009,Invoices,34,INV0033,InvoiceDate,2024-12-01,2024-05-28,High,Invoice date is earlier than the related matter open date.
+DEF0256,DQ009,Invoices,35,INV0034,InvoiceDate,2026-05-08,2025-09-01,High,Invoice date is earlier than the related matter open date.
+DEF0257,DQ009,Invoices,36,INV0035,InvoiceDate,2026-02-23,2025-03-16,High,Invoice date is earlier than the related matter open date.
+DEF0258,DQ009,Invoices,37,INV0036,InvoiceDate,2024-04-13,2023-03-21,High,Invoice date is earlier than the related matter open date.
+DEF0259,DQ009,Invoices,38,INV0037,InvoiceDate,2024-08-08,2024-05-11,High,Invoice date is earlier than the related matter open date.
+DEF0260,DQ009,Invoices,39,INV0038,InvoiceDate,2025-05-29,2024-04-09,High,Invoice date is earlier than the related matter open date.
+DEF0261,DQ009,Invoices,40,INV0039,InvoiceDate,2025-06-15,2025-01-25,High,Invoice date is earlier than the related matter open date.
+DEF0262,DQ009,Invoices,41,INV0040,InvoiceDate,2025-06-10,2025-04-03,High,Invoice date is earlier than the related matter open date.
+DEF0263,DQ008,Attorneys,2,A001,BillingRate,650,,Medium,Attorney has no standard billing rate.
+DEF0264,DQ008,Attorneys,3,A002,BillingRate,550,,Medium,Attorney has no standard billing rate.
+DEF0265,DQ008,Attorneys,4,A003,BillingRate,425,,Medium,Attorney has no standard billing rate.
+DEF0266,DQ008,Attorneys,5,A004,BillingRate,725,,Medium,Attorney has no standard billing rate.
+DEF0267,DQ008,Attorneys,6,A005,BillingRate,625,,Medium,Attorney has no standard billing rate.
+DEF0268,DQ008,Attorneys,7,A006,BillingRate,375,,Medium,Attorney has no standard billing rate.

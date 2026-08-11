@@ -1,0 +1,41 @@
+AttorneyID,AttorneyName,Office,PracticeArea,Title,BillingRate,ActiveFlag
+A001,Jordan Adams,Atlanta,Employment Litigation,Partner,,1
+A002,Taylor Hayes,Chicago,Labor Relations,Counsel,,1
+A003,Morgan Owens,Dallas,Immigration,Associate,,1
+A004,Avery Brooks,Los Angeles,Compliance,Partner,,1
+A005,Casey Irwin,New York,Workplace Safety,Counsel,,1
+A006,Riley Patel,Philadelphia,Employee Benefits,Associate,,1
+A007,Cameron Carter,Atlanta,Employment Litigation,Partner,675,1
+A008,Parker Jordan,Chicago,Labor Relations,Counsel,575,1
+A009,Quinn Reed,Dallas,Immigration,Associate,450,1
+A010,Reese Diaz,Los Angeles,Compliance,Partner,750,1
+A011,Skyler Kim,New York,Workplace Safety,Counsel,525,1
+A012,Drew Shaw,Philadelphia,Employee Benefits,Associate,400,1
+A013,Emerson Ellis,Atlanta,Employment Litigation,Partner,700,1
+A014,Hayden Lee,Chicago,Labor Relations,Counsel,600,1
+A015,Kendall Turner,Dallas,Immigration,Associate,475,1
+A016,Rowan Foster,Los Angeles,Compliance,Partner,650,1
+A017,Alex Morgan,New York,Workplace Safety,Counsel,550,1
+A018,Blair Walker,Philadelphia,Employee Benefits,Associate,425,1
+A019,Devin Grant,Atlanta,Employment Litigation,Partner,725,1
+A020,Finley Nguyen,Chicago,Labor Relations,Counsel,625,1
+A021,Jordan Adams,Dallas,Immigration,Associate,375,1
+A022,Taylor Hayes,Los Angeles,Compliance,Partner,675,1
+A023,Morgan Owens,New York,Workplace Safety,Counsel,575,1
+A024,Avery Brooks,Philadelphia,Employee Benefits,Associate,450,1
+A025,Casey Irwin,Atlanta,Employment Litigation,Partner,750,1
+A026,Riley Patel,Chicago,Labor Relations,Counsel,525,1
+A027,Cameron Carter,Dallas,Immigration,Associate,400,1
+A028,Parker Jordan,Los Angeles,Compliance,Partner,700,1
+A029,Quinn Reed,New York,Workplace Safety,Counsel,600,1
+A030,Reese Diaz,Philadelphia,Employee Benefits,Associate,475,1
+A031,Skyler Kim,Atlanta,Employment Litigation,Partner,650,1
+A032,Drew Shaw,Chicago,Labor Relations,Counsel,550,1
+A033,Emerson Ellis,Dallas,Immigration,Associate,425,1
+A034,Hayden Lee,Los Angeles,Compliance,Partner,725,1
+A035,Kendall Turner,New York,Workplace Safety,Counsel,625,1
+A036,Rowan Foster,Philadelphia,Employee Benefits,Associate,375,1
+A037,Alex Morgan,Atlanta,Employment Litigation,Partner,675,1
+A038,Blair Walker,Chicago,Labor Relations,Counsel,575,0
+A039,Devin Grant,Dallas,Immigration,Associate,450,0
+A040,Finley Nguyen,Los Angeles,Compliance,Partner,750,0

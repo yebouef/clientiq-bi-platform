@@ -48,6 +48,7 @@ Power BI semantic model
 | `docs/` | Requirements, architecture, and data dictionary |
 | `data/raw/` | Synthetic source CSV files |
 | `data/sample/` | Small preview files for repository visitors |
+| `scripts/` | Deterministic data generation and validation scripts |
 | `sql/` | Ordered SQL Server build scripts |
 | `powerbi/` | Power BI Desktop file and implementation notes |
 | `paginated-report/` | Optional paginated report assets |
@@ -93,7 +94,7 @@ The Mac is used for repository setup, documentation, synthetic data, and SQL aut
 - [x] Repository created and cloned
 - [x] MVP scope confirmed
 - [x] Initial repository scaffold created
-- [ ] Synthetic data generated
+- [x] Synthetic data generated and validated
 - [ ] SQL Server objects implemented and tested
 - [ ] Power BI dashboards created
 - [ ] Paginated report created

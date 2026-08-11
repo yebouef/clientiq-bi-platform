@@ -1,0 +1,21 @@
+ClientID,ClientName,Industry,Region,ClientStatus,StartDate
+C001,Apex Manufacturing Group,Manufacturing,Northeast,Active,2018-06-23
+C002,Blue Harbor Health Systems,Healthcare,Southeast,Active,2018-04-04
+C003,Cedar Ridge Financial,Financial Services,Midwest,Active,2022-02-24
+C004,DeltaWorks Technology,Technology,Southwest,Active,2016-04-09
+C005,Evergreen Retail Partners,Retail,West,Active,2022-10-07
+C006,Frontier Transit Holdings,Transportation,Northeast,Active,2018-12-01
+C007,Granite Peak Energy,Energy,Southeast,Active,2018-12-19
+C008,Harborlight Hospitality,Hospitality,Midwest,Active,2018-03-12
+C009,Ironwood Construction,Construction,Southwest,Active,2023-12-14
+C010,Juniper Professional Services,Professional Services,West,Active,2016-05-23
+C011,Keystone Medical Devices,Manufacturing,Northeast,Active,2015-08-03
+C012,Lakeside Consumer Products,Healthcare,Southeast,Active,2023-12-06
+C013,Meridian Logistics Group,Financial Services,Midwest,Active,2020-03-25
+C014,Northstar Digital Solutions,Technology,Southwest,Active,2019-01-17
+C015,Oak Valley Foods,Retail,West,Active,2022-07-14
+C016,Pioneer Aerospace Components,Transportation,Northeast,Active,2016-02-06
+C017,Quartz Ridge Utilities,Energy,Southeast,Active,2016-02-12
+C018,Redwood Community Banking,Hospitality,Midwest,Inactive,2023-02-23
+C019,Summit Home Products,Construction,Southwest,Inactive,2023-11-19
+C020,TerracePoint Communications,Professional Services,West,Inactive,2021-09-05
